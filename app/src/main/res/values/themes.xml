@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Aquí van los recursos -->
+
+    <style name="Theme.Agora" parent="android:Theme.Material.Light.NoActionBar" />
+</resources>

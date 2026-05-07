@@ -6,6 +6,10 @@ import androidx.activity.compose.setContent
 import androidx.activity.enableEdgeToEdge
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.padding
+<<<<<<< Updated upstream
+=======
+import androidx.compose.material3.CenterAlignedTopAppBar
+>>>>>>> Stashed changes
 import androidx.compose.material3.ExperimentalMaterial3Api
 import androidx.compose.material3.Scaffold
 import androidx.compose.material3.Text
@@ -25,7 +29,11 @@ class MainActivity : ComponentActivity() {
                 Scaffold(
                     modifier = Modifier.fillMaxSize(),
                     topBar = {
+<<<<<<< Updated upstream
                         TopAppBar(
+=======
+                        CenterAlignedTopAppBar(
+>>>>>>> Stashed changes
                             title = {
                                 Text("Agora")
                             }
@@ -33,7 +41,7 @@ class MainActivity : ComponentActivity() {
                     }
                 ) { innerPadding ->
                     Greeting(
-                        name = "Android",
+                        name = "a Agora",
                         modifier = Modifier.padding(innerPadding)
                     )
                 }
@@ -45,7 +53,7 @@ class MainActivity : ComponentActivity() {
 @Composable
 fun Greeting(name: String, modifier: Modifier = Modifier) {
     Text(
-        text = "Hello $name!",
+        text = "Bienvenido $name!",
         modifier = modifier
     )
 }
@@ -54,6 +62,6 @@ fun Greeting(name: String, modifier: Modifier = Modifier) {
 @Composable
 fun GreetingPreview() {
     AgoraTheme {
-        Greeting("Android")
+        Greeting("a Agora")
     }
 }
